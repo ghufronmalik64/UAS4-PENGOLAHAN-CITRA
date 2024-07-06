@@ -1,8 +1,8 @@
 # Segementasi Gambar Citra Digital Dengan Algoritma KNN
 
 ## A. K-means Clustering
-K-means Clustering adalah metode segmentasi gambar yang digunakan untuk mengelompokkan data (*piksel-piksel*) ke dalam sejumlah bagian (*cluster*) berdasarkan kesamaan warna, tekstur atau intensitasnya. Tujuannya adalah untuk menyederhanakan representasi gambar dan mempermudah analisis dengan mengelompokkan piksel yang memiliki karakteristik serupa ke dalam kluster yang sama.
-![img 1](Before-After.png)
+K-means Clustering adalah metode segmentasi gambar yang digunakan untuk mengelompokkan data (*piksel-piksel*) ke dalam sejumlah bagian (*cluster*) di mana setiap cluster memiliki pusat (*centroid*) yang mewakili karakteristik kelompok tersebut berdasarkan kesamaan warna, tekstur atau intensitasnya. Tujuannya adalah untuk menyederhanakan representasi gambar dan mempermudah analisis dengan mengelompokkan piksel yang memiliki karakteristik serupa ke dalam cluster yang sama.
+![img 1](ilustrasi.png)
 
 ## B. Penjelasan Program
 Berikut adalah program Python yang telah dirapikan dan dijelaskan setiap langkahnya. Program ini menggunakan OpenCV untuk memproses gambar, melakukan clustering dengan algoritma k-means, dan menampilkan hasilnya menggunakan matplotlib.
@@ -101,7 +101,7 @@ Berikut adalah program Python yang telah dirapikan dan dijelaskan setiap langkah
 <br>
 ## D. Cara Menjalankan Program
    1. Pastikan Anda telah menginstal library yang diperlukan: **numpy**, **matplotlib**, dan **opencv-python**.
-   2. Tempatkan gambar (**monarch.jpg**) di direktori **images**.
+   2. Tempatkan gambar (**relax.jpg**) di direktori **images**.
    3. Salin dan tempel kode lengkap ke dalam sel **Visual Studio Code**.
    4. Jalankan sel untuk melihat gambar asli dan gambar tersegmentasi berdampingan.
       
