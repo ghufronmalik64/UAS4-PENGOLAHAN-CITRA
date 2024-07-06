@@ -3,7 +3,7 @@
 ## PENJELASAN
 
 ## K-means Clustering
-![img 1](K-Means (Before-After).png)
+![img 1](K-Means(Before-After).png)
 ## Program
 Berikut adalah program Python yang telah dirapikan dan dijelaskan setiap langkahnya. Program ini menggunakan OpenCV untuk memproses gambar, melakukan clustering dengan algoritma k-means, dan menampilkan hasilnya menggunakan matplotlib.
 
