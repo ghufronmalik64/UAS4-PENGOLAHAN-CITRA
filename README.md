@@ -1,7 +1,7 @@
 # Segementasi Gambar Citra Digital Dengan Algorithm KNN
 
 ## A. K-means Clustering
-K-means Clustering adalah metode segmentasi gambar yang digunakan untuk mengelompokkan data *(piksel-piksel)* gambar ke dalam sejumlah bagian *(cluster)* berdasarkan kesamaan warna, tekstur atau intensitasnya. Tujuannya adalah untuk menyederhanakan representasi gambar dan mempermudah analisis dengan mengelompokkan piksel yang memiliki karakteristik serupa ke dalam kluster yang sama.
+K-means Clustering adalah metode segmentasi gambar yang digunakan untuk mengelompokkan data (*piksel-piksel*ke dalam sejumlah bagian (*cluster*) berdasarkan kesamaan warna, tekstur atau intensitasnya. Tujuannya adalah untuk menyederhanakan representasi gambar dan mempermudah analisis dengan mengelompokkan piksel yang memiliki karakteristik serupa ke dalam kluster yang sama.
 ![img 1](Before-After.png)
 
 ## B. Penjelasan Program
@@ -19,10 +19,10 @@ Berikut adalah program Python yang telah dirapikan dan dijelaskan setiap langkah
 
 2. **Membaca dan Mengkonversi Gambar**
    ```
-   image = cv2.imread('images/monarch.jpg')
+   image = cv2.imread('images/relax.jpg')
    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
    ```
-   - `cv2.imread('images/monarch.jpg')`: Membaca gambar dari file dengan nama `monarch.jpg` di folder `images`. OpenCV membaca gambar dalam format BGR (Blue, Green, Red).
+   - `cv2.imread('images/relax.jpg')`: Membaca gambar dari file dengan nama `monarch.jpg` di folder `images`. OpenCV membaca gambar dalam format BGR (Blue, Green, Red).
    - `cv2.cvtColor(image, cv2.COLOR_BGR2RGB)`: Mengkonversi gambar dari format BGR ke RGB karena matplotlib menggunakan format RGB untuk menampilkan gambar.
 
 3. **Menampilkan Gambar Asli**
@@ -98,7 +98,12 @@ Berikut adalah program Python yang telah dirapikan dan dijelaskan setiap langkah
   
 ## C. Hasil Output
 ![img 2](Output-Image.png)
-
-
-
+<br>
+## D. Cara Menjalankan Program
+   1. Pastikan Anda telah menginstal library yang diperlukan: **numpy***, **matplotlib**, dan **opencv-python**.
+   2. Tempatkan gambar (**monarch.jpg**) di direktori **images**.
+   3. Salin dan tempel kode lengkap ke dalam sel **Visual Studio Code**.
+   4. Jalankan sel untuk melihat gambar asli dan gambar tersegmentasi berdampingan.
+      
+   Dengan kode ini, Anda dapat melakukan segmentasi gambar menggunakan K-means clustering dan melihat hasilnya secara visual.
 
