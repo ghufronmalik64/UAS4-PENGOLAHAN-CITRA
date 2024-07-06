@@ -97,7 +97,7 @@ Berikut adalah program Python yang telah dirapikan dan dijelaskan setiap langkah
    - `plt.show()`: Menampilkan seluruh figur dengan subplot.
   
 ## C. Hasil Output
-![img 2](HasilOutput.png)
+![img 2](Output-Image.png)
 
 
 
