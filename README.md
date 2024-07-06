@@ -1,3 +1,5 @@
+# Segementasi Gambar Citra Digital Dengan Algorithm KNN
+
 ## A. K-means Clustering
 K-means Clustering adalah metode segmentasi gambar yang digunakan untuk mengelompokkan data *(piksel-piksel)* gambar ke dalam sejumlah bagian *(cluster)* berdasarkan kesamaan warna, tekstur atau intensitasnya. Tujuannya adalah untuk menyederhanakan representasi gambar dan mempermudah analisis dengan mengelompokkan piksel yang memiliki karakteristik serupa ke dalam kluster yang sama.
 ![img 1](Before-After.png)
@@ -95,3 +97,8 @@ Berikut adalah program Python yang telah dirapikan dan dijelaskan setiap langkah
    - `plt.show()`: Menampilkan seluruh figur dengan subplot.
   
 ## C. Hasil Output
+![img 2](HasilOutput.png)
+
+
+
+
